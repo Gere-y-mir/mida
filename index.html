@@ -16,20 +16,23 @@
 </head>
 
 <body>
+  <!-- Menu - Navbar -->
   <nav class="navbar navbar-default navbar-styled">
     <div class="container">
       <div class="navbar-header">
         <a class="navbar-brand" href="#">Mida</a>
       </div>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Page 1</a></li>
-        <li><a href="#">Page 2</a></li>
-        <li><a href="#">Page 3</a></li>
+        <li><a href="#tabaccheria">Tabaccheria</a></li>
+        <li><a href="#edicola">Edicola</a></li>
+        <li><a href="#bar">Bar</a></li>
+        <li><a href="#chisiamo">Chi Siamo</a></li>
+        <li><a href="#dovesiamo">Dove Siamo</a></li>
       </ul>
     </div>
   </nav>
 
+  <!-- img - banner -->
   <div class="text-center">
     <div id="carouselExampleSlidesOnly" class="carousel-styled carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
@@ -40,31 +43,16 @@
     </div>
   </div>
 
-  <!-- Tabacchi -->
-  <div class="container">
+  <!-- Edicola -->
+  <div class="container py-10">
     <div class="row">
       <div class="col-sm-12">
-        <h2>Titolo</h2>
+        <a name="edicola"></a>
+        <div class="title">
+          <p>Edicola</p>
+        </div>
       </div>
-      <div class="col-sm-6">
-        
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-        
 
-      </div>
-      <div class="col-sm-6">
-        <img src="img/screen.png" class="img-fluid carousel-img" alt="...">
-      </div>
-    </div>
-  </div>
-
-  <!-- SEZ 2 -->
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12">
-        <h2>Titolo</h2>
-      </div>
       <div class="col-sm-6">
         <img src="img/screen.png" class="img-fluid carousel-img" alt="...">
       </div>
@@ -75,11 +63,53 @@
     </div>
   </div>
 
-  <!-- SEZ 3 -->
-  <div class="container">
+  <!-- Tabaccheria -->
+  <div class="container py-10">
     <div class="row">
       <div class="col-sm-12">
-        <h2>Titolo</h2>
+        <a name="tabaccheria"></a>
+        <div class="title">
+          <p>Tabaccheria</p>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      </div>
+      <div class="col-sm-6">
+        <img src="img/screen.png" class="img-fluid carousel-img" alt="...">
+      </div>
+    </div>
+  </div>
+
+  <!-- Bar -->
+  <div class="container py-10">
+    <div class="row">
+      <div class="col-sm-12">
+        <a name="bar"></a>
+        <div class="title">
+          <p>Bar</p>
+        </div>
+      </div>
+
+      <div class="col-sm-6">
+        <img src="img/screen.png" class="img-fluid carousel-img" alt="...">
+      </div>
+      <div class="col-sm-6">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Chi Siamo -->
+  <div class="container py-10">
+    <div class="row">
+      <div class="col-sm-12">
+        <a name="chisiamo"></a>
+        <div class="title">
+          <p>Chi Siamo</p>
+        </div>
       </div>
 
       <div class="col-sm-6">
@@ -92,12 +122,23 @@
     </div>
   </div>
 
-  <!-- Dove trovarci  -->
-  <div class="container">
+  <!-- Dove siamo  -->
+  <div class="container py-10">
     <div class="row">
       <div class="col-sm-12">
-        <h2>Dove siamo</h2>
+        <a name="dovesiamo"></a>
+        <div class="title">
+          <p>Dove siamo</p>
+        </div>
       </div>
+      <div class="col-sm-12">
+        <p>
+          Veniteci a trovare presso <a
+            href="https://www.google.com/maps?ll=46.196303,12.770577&z=16&t=h&hl=it&gl=IT&mapclient=embed&cid=12364097424271871950"
+            target="_blank">Piazza Vittorio Emanuele II', 2, 33092 Cavasso Nuovo PN</a>
+        </p>
+      </div>
+
       <div class="col-sm-2"></div>
       <div class="col-sm-6">
         <iframe

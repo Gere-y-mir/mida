@@ -15,3 +15,12 @@
 .navbar-styled{
   margin-bottom: 0;
 }
+
+.py-10{
+  padding: 20px 0;
+}
+
+.title{
+  font-size: 35px;
+  font-weight: 700;
+}
