@@ -44,3 +44,32 @@
 .row{
   margin:0;
 }
+
+.d-flex-left{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.d-flex-right{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+@media screen and (max-width: 992px) {
+  .carousel-styled{
+    height: 100%;
+  } 
+}
+
+@media screen and (max-width: 767px) {
+  .d-flex-right{
+    display: flex;
+    flex-direction: column;
+  }
+  .d-flex-left{
+    display: flex;
+    flex-direction: column;
+  }
+}
