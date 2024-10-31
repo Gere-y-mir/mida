@@ -3,11 +3,15 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.logo-styled{
+  width:47%;
+}
+
 .carousel-styled{
   height: 90vh;
   width:100%;
 }
-
 
 @media screen and (max-width: 1540px) {
   .carousel-styled{
@@ -77,6 +81,9 @@ ul{
   .carousel-styled{
     height: 100%;
   } 
+  .logo-styled{
+    width:100%;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -90,5 +97,15 @@ ul{
   }
   .container-styled{
     padding-top: 20px;
+  }
+  .logo-styled{
+    width:30%;
+  }
+  .menu-hide-767{
+    display: none;
+  }
+  .logo-center{
+    display: flex;
+    justify-content: center;
   }
 }
