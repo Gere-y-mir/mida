@@ -4,8 +4,15 @@
   box-sizing: border-box;
 }
 .carousel-styled{
-  height: 500px;
+  height: 90vh;
   width:100%;
+}
+
+
+@media screen and (max-width: 1540px) {
+  .carousel-styled{
+    height: 100%;
+  }
 }
 
 @media screen and (max-width: 992px) {
