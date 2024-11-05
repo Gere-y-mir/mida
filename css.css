@@ -92,6 +92,30 @@ ul{
 .menu-hover:hover{
   color: #D7D84D !important;
 }
+
+.container-relative{
+  position:relative;
+}
+.up-anchor{
+  position:absolute;
+  right: 30px;
+  top: 60px;
+  width: 30px;
+  border-radius: 100%;
+}
+.p-sticky{
+  position: sticky;
+  top: 80vh;
+  z-index: 999;
+}
+.anchor-arrow-svg{
+  border-radius: 100%;
+}
+.anchor-arrow-svg:hover{
+  background-color: #D7D84D;
+}
+
+
 @media screen and (max-width: 1540px) {
   .carousel-styled{
     height: 100%;
@@ -137,5 +161,8 @@ ul{
   .logo-center{
     display: flex;
     justify-content: center;
+  }
+  .anchor-arrow{
+    display: none;
   }
 }
